@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>SENTINEL-E | Dashboard</title>
+<style>
+body{background:#050B19;color:#E7F1F8;font-family:Verdana;margin:0;}
+body{display:flex;justify-content:center;padding-top:20px;}
+.cnt{width:900px;border:1px solid #153B5A;background:#050B19;box-shadow:0 0 20px #000;}
+.hdr{background:#0A1730;border-bottom:2px solid #16A7D9;padding:20px;}
+.hdr{display:flex;align-items:center;justify-content:space-between;}
+.htx h1{color:#16A7D9;margin:0;font-size:36px;letter-spacing:2px;}
+.htx p{color:#CBE5F0;margin:5px 0 0 0;font-size:14px;}
+.main{padding:40px 20px;text-align:center;}
+.hero{color:#12B5F5;font-size:32px;margin-bottom:20px;}
+.desc{color:#F1F7FB;font-size:18px;line-height:1.5;max-width:800px;margin:0 auto 30px;}
+.imgc{background:#0C1325;border:1px solid #24496A;display:inline-block;}
+.imgc{margin-bottom:30px;padding:10px;}
+.imgc img{max-width:300px;height:auto;display:block;}
+.nav{background:#081425;border:1px solid #234D70;padding:20px;margin:20px auto;width:92%;}
+.nav a{color:#43D7FF;text-decoration:none;font-weight:bold;font-size:18px;padding:0 10px;}
+.nav a:hover{color:#FFF;text-shadow:0 0 8px #43D7FF;}
+.sep{color:#234D70;}
+.ftr{background:#08101E;border-top:1px solid #163B59;padding:15px;}
+.ftr{font-size:12px;color:#AFC4D2;text-align:center;}
+</style>
+</head>
+<body>
+<div class="cnt">
+<div class="hdr">
+<div class="htx">
+<h1>SENTINEL-E</h1>
+<p>Plataforma de supervisi&oacute;n y detecci&oacute;n de anomal&iacute;as</p>
+</div>
+<img src="logo.gif" width="80" alt="Sentinel">
+</div>
+
+<div class="main">
+<h2 class="hero">Sistema de detecci&oacute;n de anomal&iacute;as en cuadros el&eacute;ctricos</h2>
+<p class="desc">
+Nodo central de monitorizaci&oacute;n para supervisar el estado del sistema, 
+visualizar variables cr&iacute;ticas y facilitar el diagn&oacute;stico de incidencias.
+</p>
+
+<div class="imgc">
+<img src="keil.gif" alt="Plataforma Keil">
+</div>
+
+<div class="nav">
+<a href="/system.cgi">Control del sistema</a><span class="sep">|</span>
+<a href="/leds.cgi">Estado global</a><span class="sep">|</span>
+<a href="/energia.cgi">Placa n&uacute;cleo</a><span class="sep">|</span>
+<a href="/logs.cgi">Hist&oacute;rico</a><span class="sep">|</span>
+<a href="/config.cgi">Configuraci&oacute;n</a><span class="sep">|</span>
+<a href="/reloj.cgi">Reloj RTC</a>
+</div>
+
+<div style="max-width:750px;margin:30px auto;font-size:16px;line-height:1.6;">
+<p>Esta interfaz forma parte del entorno de demostraci&oacute;n del sistema embebido 
+y permite presentar de forma clara los distintos m&oacute;dulos de supervisi&oacute;n.</p>
+<p>Su objetivo es apoyar la detecci&oacute;n temprana de comportamientos an&oacute;malos, 
+mejorar la visibilidad operativa y facilitar la revisi&oacute;n t&eacute;cnica.</p>
+</div>
+</div>
+
+<div class="ftr">
+SENTINEL-E &copy; 2026 - Interfaz de supervisi&oacute;n embebida basada en plataforma Keil
+</div>
+</div>
+</body>
+</html>

@@ -2,7 +2,7 @@
 
 Proyecto de asignatura: diseño de un cuadro eléctrico con funcionalidades automatizadas de protección, monitorización y control remoto vía servidor HTTP.
 
-> **Estado: en desarrollo** — este repositorio contiene actualmente la propuesta técnica del proyecto. El firmware (C/C++ sobre STM32) se está implementando y se subirá progresivamente.
+> **Estado: FINALIZADO** — este repositorio contiene actualmente el proyecto completo. El firmware (C/C++ sobre STM32) esta ya todo subido, los diseños del circuito y la memoria con sus respectivos manuales.
 
 ## 📋 Descripción
 

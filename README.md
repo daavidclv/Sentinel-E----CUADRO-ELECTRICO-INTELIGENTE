@@ -18,6 +18,7 @@ Sentinel-E es un cuadro eléctrico inteligente pensado para integrar en un mismo
 
 ## 📄 Documentación
 
+`Memoria_Tecnica_SENTINEL-E.pdf` - Memoria Tecnica del proyecto incluye manual y fotos del mismo.
 `Propuesta_SentinelE_REVISADA_v3.pdf` — propuesta técnica del proyecto con el planteamiento, objetivos y arquitectura prevista
 
 ## 👤 Autor
